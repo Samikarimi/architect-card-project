@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(35, 34, 34, 0.777);
+}
+
+.card {
+  display: block;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  width: 650px;
+  min-height: 450px;
+  position: relative;
+}
+
+.wrapper {
+  padding: 20px;
+  position: absolute;
+  background-image: linear-gradient(
+      45deg,
+      rgba(255, 217, 0, 0.221),
+      rgba(255, 217, 0, 0.221)
+    ),
+    url(/images/arch.jpg);
+
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .inner-card {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.603),
+    rgba(0, 0, 0, 0.603)
+  );
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 2em;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px;
+  width: 250px;
+  height: 380px;
+}
+
+.inner-card img {
+  border-radius: 25px;
+}
+
+.inner-card .title {
+  display: flex;
+  line-height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  color: white;
+}
+
+.inner-card .title h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(174, 152, 22);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  padding: 3px;
+  margin-top: 1em;
+}
+
+.inner-card .title p {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  padding: 5px;
+}
+
+.inner-card .btn {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.btn .btn1 {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.btn .btn2 {
+  background-color: transparent;
+  color: rgb(174, 152, 22);
+  border: 2px solid rgb(174, 152, 22);
+  border-radius: 5px;
+  padding: 6px 6.5px;
+}
